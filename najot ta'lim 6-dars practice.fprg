@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="najot ta'lim 6-dars practice"/>
+        <attribute name="authors" value="ubuntu"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-05-09 04:57:49 PM"/>
+        <attribute name="created" value="dWJ1bnR1O0lOVkFMSVQ7MjAyNS0wNS0wOTswNDo1Mzo1NSBQTTsyNDk5"/>
+        <attribute name="edited" value="dWJ1bnR1O0lOVkFMSVQ7MjAyNS0wNS0wOTswNDo1Nzo0OSBQTTsyOzI2MTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, i" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <if expression="a &lt;= 0">
+                <then>
+                    <output expression="&quot;iltimos 1 yoki undan katta son kiriting&quot;" newline="True"/>
+                    <breakpoint expression="" always="True"/>
+                </then>
+                <else/>
+            </if>
+            <for variable="i" start="a" end="1" direction="dec" step="1">
+                <output expression="i" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

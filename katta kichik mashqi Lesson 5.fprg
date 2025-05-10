@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="katta kichik mashqi Lesson 5"/>
+        <attribute name="authors" value="ubuntu"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-05-09 12:15:52 PM"/>
+        <attribute name="created" value="dWJ1bnR1O0lOVkFMSVQ7MjAyNS0wNS0wOTsxMToxMzozNSBBTTsyNDc2"/>
+        <attribute name="edited" value="dWJ1bnR1O0lOVkFMSVQ7MjAyNS0wNS0wOTsxMjoxNTo1MiBQTTs3OzI2MDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;how many nums you want to enter: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Son kiriting: &quot;" newline="True"/>
+            <input variable="b"/>
+            <comment text="Boshida c ham d ham eng katta va eng kichik raqam hisoblanadi&#13;&#10;"/>
+            <assign variable="c" expression="b"/>
+            <assign variable="d" expression="b"/>
+            <for variable="i" start="2" end="a" direction="inc" step="1">
+                <output expression="&quot;Son kiriting: &quot;" newline="True"/>
+                <input variable="b"/>
+                <if expression="b &gt; c">
+                    <then>
+                        <assign variable="c" expression="b"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="b &lt; d">
+                    <then>
+                        <assign variable="d" expression="b"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;kattasi: &quot; &amp; c &amp; ToChar(13)&#13;&#10;&amp; &quot;kichigi: &quot; &amp; d" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
