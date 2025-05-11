@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="najpt ta'lim 6-dars. practice"/>
+        <attribute name="authors" value="ubuntu"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-05-11 11:27:57 AM"/>
+        <attribute name="created" value="dWJ1bnR1O0lOVkFMSVQ7MjAyNS0wNS0wOTswNToxNDowNCBQTTsyNDkx"/>
+        <attribute name="edited" value="dWJ1bnR1O0lOVkFMSVQ7MjAyNS0wNS0xMTsxMToyNzo1NyBBTTs2OzI1OTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, i, sumj, sumt" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter number from a to b: &quot;" newline="True"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="sumj" expression="0"/>
+            <assign variable="sumt" expression="0"/>
+            <for variable="i" start="a" end="b" direction="inc" step="1">
+                <if expression="i % 2 == 0">
+                    <then>
+                        <assign variable="sumj" expression="sumj + i"/>
+                    </then>
+                    <else>
+                        <assign variable="sumt" expression="sumt + i"/>
+                    </else>
+                </if>
+            </for>
+            <output expression="&quot;juftson yig'indisi: &quot; &amp; sumj &amp; ToChar(13)&#13;&#10;&amp; &quot;toqson yig'indisi: &quot; &amp; sumt" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
