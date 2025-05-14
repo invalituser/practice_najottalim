@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Lesson 7. 1-task practice"/>
+        <attribute name="authors" value="ubuntu"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-05-12 05:04:25 PM"/>
+        <attribute name="created" value="dWJ1bnR1O0lOVkFMSVQ7MjAyNS0wNS0xMjswNDo1NDoxMyBQTTsyNDg4"/>
+        <attribute name="edited" value="dWJ1bnR1O0lOVkFMSVQ7MjAyNS0wNS0xMjswNTowNDoyNSBQTTs1OzI1OTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Boshlang'ich nuqta kiriting: &quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Ohirgi nuqta kiriting: &quot;" newline="True"/>
+            <input variable="num2"/>
+            <while expression="num1 &lt; num2">
+                <assign variable="num1" expression="num1 + 1"/>
+            </while>
+            <output expression="num1" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

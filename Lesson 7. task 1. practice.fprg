@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Lesson 7. task 1. practice"/>
+        <attribute name="authors" value="ubuntu"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-05-12 05:47:14 PM"/>
+        <attribute name="created" value="dWJ1bnR1O0lOVkFMSVQ7MjAyNS0wNS0xMjswNTowNzoyNiBQTTsyNDkx"/>
+        <attribute name="edited" value="dWJ1bnR1O0lOVkFMSVQ7MjAyNS0wNS0xMjswNTo0NzoxNCBQTTs3OzI2MDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, sum" type="Integer" array="False" size=""/>
+            <output expression="&quot;Boshlanish qiymat kirting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;ohirgi qiymat kirting: &quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="sum" expression="0"/>
+            <while expression="a &lt; b">
+                <assign variable="sum" expression="sum + a"/>
+                <output expression="a" newline="True"/>
+                <assign variable="a" expression="a+1"/>
+            </while>
+            <output expression="a" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
